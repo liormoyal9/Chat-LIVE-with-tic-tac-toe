@@ -1,0 +1,7 @@
+from node:alpine
+workdir /app
+copy package.json package-lock.json ./
+run npm install
+copy . . 
+expose 5000
+cmd npm start

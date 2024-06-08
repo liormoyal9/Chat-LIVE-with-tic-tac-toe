@@ -1,0 +1,13 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-title {
+  color: var(--secondary-color);
+  font-size: 2rem; /* Adjust the font size as needed */
+}
